@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #faf9fe;
+}
+
+@font-face {
+  font-family: 'Muli Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Muli Regular"), url("Muli-Regular.woff") format("woff");
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60vh;
+  background: url(./images/bg.png) center center/cover;
+}
+
+.header .headback {
+  height: 30vh;
+  width: 40vw;
+  background-color: black;
+  opacity: 0.4;
+  position: absolute;
+  margin-left: 10vw;
+}
+
+.header .brandName {
+  position: relative;
+  color: white;
+  height: 30vh;
+  width: 35vw;
+  margin-left: 12vw;
+  margin-top: 6vh;
+}
+
+.header .brandName h1 {
+  font-family: 'Muli Regular';
+  font-size: 3rem;
+  padding: 2vh 2vw;
+}
+
+.header .brandName p {
+  font-family: 'Muli Regular';
+  font-size: 1rem;
+  padding: 0.5vh 2vw;
+}
+
+.header .login {
+  margin-left: 42vw;
+  margin-top: 2vh;
+  cursor: pointer;
+  height: 5vh;
+}
+
+.header .login button {
+  list-style: none;
+  outline: none;
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 10%;
+  border: none;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 10px lightgray;
+          box-shadow: 0 0 10px lightgray;
+  border-bottom: 6px solid #02c372;
+  border-radius: 5px;
+}
+
+.main {
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 20vh 0vw;
+}
+
+.main .navlink {
+  margin: 2%;
+  text-decoration: none;
+}
+
+.main .navlink button {
+  height: 20vh;
+  width: 25vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 6%;
+  background-color: white;
+  border: 8px solid white;
+  -webkit-box-shadow: 0 0 10px lightgray;
+          box-shadow: 0 0 10px lightgray;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+  list-style: none;
+  border-bottom: 6px solid #02c372;
+}
+
+.main .navlink .guest img {
+  height: 5rem;
+  width: 5rem;
+}
+
+.main .navlink .guest div {
+  margin: 5%;
+}
+
+.main .navlink .employee img {
+  height: 5rem;
+  width: 5rem;
+}
+
+.main .navlink .employee div {
+  margin: 5%;
+}
+
+.boxguest {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.boxguest h1 {
+  margin: 2%;
+}
+
+.boxguest input {
+  text-decoration: none;
+  width: 40%;
+  margin: 0.5%;
+  padding: 1.2%;
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px lightgray;
+          box-shadow: 0 0 10px lightgray;
+}
+
+.boxguest button {
+  outline: none;
+  text-decoration: none;
+  padding: 1%;
+  border-radius: 10px;
+  background-color: #5959ff;
+  border: none;
+  font-weight: bolder;
+  margin: 2vh 0vw;
+}
+
+.homebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10vh 10vw;
+  height: 60vh;
+  width: 95vw;
+  margin-left: 2.5vw;
+  margin-bottom: 2.5vw;
+  background-color: white;
+  -webkit-box-shadow: 0 0 10px lightgray;
+          box-shadow: 0 0 10px lightgray;
+}
+
+.homebox hr {
+  width: 98%;
+}
+
+.homebox p {
+  margin: 3%;
+  font-family: 'Muli Regular';
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=App.css.map */
